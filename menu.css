@@ -130,6 +130,16 @@
   @media (max-width: 480px) {
     body {
       padding: 10px;
+    font-family: Arial, sans-serif;
+    background-image: url(RITA.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto;
     }
   
     .menu-container {
@@ -137,8 +147,8 @@
     }
   
     .menu-item img {
-      width: 100px;
-      height: 100px;
+      width: 200px;
+      height: 200px;
     }
   
     .item-details p,
